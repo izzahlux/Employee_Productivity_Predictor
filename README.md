@@ -18,6 +18,10 @@
    * Correlation among other variables
    * Determine effective and efficient variable standard to achieve high productivity (> targeted productivity)
 
+## Business Benefit
+1. Predict garment employee's productivity with an accuracy rate more than 90% by taking consideration of various factors that determine employee productivity
+2. Productivity determinant variable planning can be determined effectively and efficiently so it can minimize labor costs, overtime costs, and incentive costs by more than 50%
+
 ## Dataset 
 <p align="justify">This project using productivity prediction of garment employee dataset (Source : https://www.kaggle.com/datasets/ishadss/productivity-prediction-of-garment-employees). This dataset contains 1197 rows and 15 columns. This dataset includes important attributes of the garment manufacturing process and the productivity of the employees which had been collected manually and also been validated by the industry experts. </p>
 
