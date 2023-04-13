@@ -1,4 +1,4 @@
-# Garment's Employee Productivity Predictor!
+# Garment's Employee Productivity Predictor
 ![Blue White Minimalist Travel Vlog Youtube Thumbnail](https://user-images.githubusercontent.com/100056450/231661893-49988f19-51af-4485-bfc6-4cc7230f3045.jpg)
 
 <p align="justify">The Garment Industry is one of the key examples of the industrial globalization of this modern era. It is a highly labour-intensive industry with lots of manual processes. Satisfying the huge global demand for garment products is mostly dependent on the production and delivery performance of the employees in the garment manufacturing companies. So, it is highly desirable among the decision makers in the garments industry to track, analyse and predict the productivity performance of the working teams in their factories.</p>
