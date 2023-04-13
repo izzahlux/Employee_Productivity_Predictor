@@ -6,7 +6,7 @@
 ## Objective & Method
 1. Create garment employee's productivity predictor
    
-   Create predictive model using linear regression machine learning algorithm. In this project we will use several method of linear regression, that are :
+   Create predictive model using linear regression machine learning algorithm. In this project we will use several method of linear regression, compare  their performance, and choose one of the best model. The method that we use are :
    * Multiple Linear Regression
    * Ridge Regression
    * Lasso Regression
