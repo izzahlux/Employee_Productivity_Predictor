@@ -1,12 +1,12 @@
 ![Blue White Minimalist Travel Vlog Youtube Thumbnail](https://user-images.githubusercontent.com/100056450/231661893-49988f19-51af-4485-bfc6-4cc7230f3045.jpg)
 
 ## Problem Overview
-<p align="justify">The Garment Industry is one of the key examples of the industrial globalization of this modern era. It is a highly labour-intensive industry with lots of manual processes. Satisfying the huge global demand for garment products is mostly dependent on the production and delivery performance of the employees in the garment manufacturing companies. The main problem often faced by the garment industry is that employees cannot meet the productivity that has been targeted, causing losses such as the number of good products produced is less than the target, delays in completing products from a predetermined time period, and the level of customer satisfaction decreases. So, it is highly desirable among the decision makers in the garments industry to track, analyse and predict the productivity performance of the working teams in their factories using data driven approach. Through the data approach, predictive models can be made using one of the machine learning algorithms, namely linear regression. With this predictor of employee productivity, management can carry out production planning more accurately and efficiently in terms of costs.</p>
+<p align="justify">The Garment Industry is one of the key examples of the industrial globalization of this modern era. It is a highly labour-intensive industry with lots of manual processes. Satisfying the huge global demand for garment products is mostly dependent on the production and delivery performance of the employees in the garment manufacturing companies. The main problem often faced by the garment industry is that employees cannot meet the productivity that has been targeted, causing losses such as the number of good products produced is less than the target, delays in completing products from a predetermined time period, and the level of customer satisfaction decreases. So, it is highly desirable among the decision makers in the garments industry to track, analyse and predict the productivity performance of the working teams in their factories using data driven approach. Through the data approach, predictive models can be made using one of the machine learning algorithms, namely regression. With this predictor of employee productivity, management can carry out production planning more accurately and efficiently in terms of costs.</p>
 
 ## Objective & Method
 1. Create garment employee's productivity predictor
    
-   Create predictive model using linear regression machine learning algorithm. In this project we will use several method of linear regression, compare  their performance, and choose one of the best model. The method that we use are :
+   Create predictive model using regression machine learning algorithm. In this project we will use several method of regression, compare  their performance, and choose one of the best model. The method that we use are :
    * Multiple Linear Regression
    * Ridge Regression
    * Lasso Regression
@@ -23,10 +23,11 @@
 2. Productivity determinant variable planning can be determined effectively and efficiently so it can minimize labor costs, overtime costs, and incentive costs by more than 50%
 
 ## Dataset 
-<p align="justify">This project using productivity prediction of garment employee dataset (Source : https://www.kaggle.com/datasets/ishadss/productivity-prediction-of-garment-employees). This dataset contains 1197 rows and 15 columns. This dataset includes important attributes of the garment manufacturing process and the productivity of the employees which had been collected manually and also been validated by the industry experts. </p>
+<p align="justify">This project using productivity prediction of garment employee dataset from kaggle (https://www.kaggle.com/datasets/ishadss/productivity-prediction-of-garment-employees). This dataset contains 1197 rows and 15 columns. This dataset includes important attributes of the garment manufacturing process and the productivity of the employees which had been collected manually and also been validated by the industry experts. </p>
 
-
-## Requirements
+## Requirement Packages
 
 ```
 pandas, numpy, sklearn, statsmodels, seaborn, matplotlib
+
+## Result
