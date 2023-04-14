@@ -88,4 +88,13 @@ pandas, numpy, sklearn, statsmodels, seaborn, matplotlib
    * filter the data by it's smv value, compare the data that have smv value
    * choose the data that has the smallest value of number of workers, over time, & incentive
    
-   
+## Project Result
+
+1. The best model has smallest R2, RMSE, MAE, MAPE values. from the several regression methods used, multiple linear regression is the best model
+
+   | Metric | Multiple Linear Regression | Lasso Regression | Ridge Regression | Random Forest Regression | Deep Learning |
+   | :---: | :---: | :---: | :---: | :---: | :---: |
+   | R2 | 1 | 0,999 | 0,999 | 0,9983 | - | 
+   | RMSE | 5,4517e<sup>-13</sup> | 0,0001517 | 2,0053e<sup>-8</sup> | 0,0173518 | 0,0085 | 
+   | MAE | 4,9505e<sup>-13</sup> | 0,0001108 | 1,4063e<sup>-8</sup> | 0,0055825 | 0,0733 | 
+   | MAPE | 7,1979e<sup>-13</sup> | 0,0001787| 2,2657e<sup>-8</sup> | 0.0097527 | 11,4380 | 
