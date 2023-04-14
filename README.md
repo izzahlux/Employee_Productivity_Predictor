@@ -66,4 +66,17 @@ pandas, numpy, sklearn, statsmodels, seaborn, matplotlib
    * There is a missing value in wip features with percentage 42,27%. We can handle it by drop the wip column
    * There is no duplicated value
 
-4. 
+4. Exploratory Data Analysis
+5. Preprocessing Model
+   * Encoding categorical data
+   * Split data
+   * Multicollinearity
+   * Drop redundant features
+6. Modelling
+   * Multiple linear regression
+   * Ridge regression with hyperparameter tuning 
+   * Lasso regression with hyperparameter tuning 
+   * Random forest regression
+   * Deep learning
+7. Evaluate The Model
+   
