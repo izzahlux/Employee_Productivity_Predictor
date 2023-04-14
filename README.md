@@ -57,10 +57,13 @@ pandas, numpy, sklearn, statsmodels, seaborn, matplotlib
    * Extract the month of the date feature. All of data were taken in 2015 (not in different year), so we can ignore it and we have already quarter and day features to replace the day of the date feature
    
 2. Feature Engineering
-   a. Extract month from date feature
-   b. Correcting the wrong type
-   c. Round up the value of no_of_workers & change the data type into integer
-   d. Change the value of actual_productivity > 1 become 1
+   * Extract month from date feature
+   * Correcting the wrong type
+   * Round up the value of no_of_workers & change the data type into integer
+   * Change the value of actual_productivity > 1 become 1
    
 3. Data Cleaning
-   a. There is a missing value in wip features
+   * There is a missing value in wip features with percentage 42,27%. We can handle it by drop the wip column
+   * There is no duplicated value
+
+4. 
