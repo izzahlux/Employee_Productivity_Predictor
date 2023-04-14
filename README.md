@@ -12,18 +12,14 @@
    * Lasso Regression
    * Random Forest Regression
    * Deep Learning
-2. Analyze the variable that affect garment employee's productivity 
-   
-   Perform exploratory data analysis processes to analyze :
-   * Correlation among other variables
-   * Determine effective and efficient variable standard to achieve high productivity (> targeted productivity)
+2. Determine effective and efficient variable standard to achieve high productivity (> targeted productivity)
 
 ## Business Benefit
 1. Predict garment employee's productivity with an accuracy rate more than 90% by taking consideration of various factors that determine employee productivity
 2. Productivity determinant variable planning can be determined effectively and efficiently so it can minimize labor costs, overtime costs, and incentive costs by more than 50%
 
 ## Dataset 
-<p align="justify">This project using productivity prediction of garment employee dataset from kaggle (https://www.kaggle.com/datasets/ishadss/productivity-prediction-of-garment-employees). This dataset contains 1197 rows and 15 columns. This dataset includes important attributes of the garment manufacturing process and the productivity of the employees which had been collected manually and also been validated by the industry experts. Here is features description : </p>
+<p align="justify">This project using productivity prediction of garment employee dataset from kaggle (https://www.kaggle.com/datasets/ishadss/productivity-prediction-of-garment-employees). This dataset contains 1197 rows and 15 columns. This dataset includes important attributes of the garment manufacturing process and the productivity of the employees which had been collected manually and also been validated by the industry experts. This dataset taken from one of the garment industry in Bangladesh.Here is features description : </p>
 
 1. date : date in MM-DD-YYYY
 2. quarter : a portion of the month (A month was devided into five quarters)
@@ -87,7 +83,7 @@ pandas, numpy, sklearn, statsmodels, seaborn, matplotlib
    * find the unique value of the smv, we will determine effective & efficient standard variable with smv based
    * filter the data by it's smv value, compare the data that have smv value
    * choose the data that has the smallest value of number of workers, over time, & incentive
-   
+     
 ## Project Result
 
 1. The best model has smallest R2, RMSE, MAE, MAPE values. from the several regression methods used, multiple linear regression is the best model
@@ -98,3 +94,22 @@ pandas, numpy, sklearn, statsmodels, seaborn, matplotlib
    | RMSE | 5,4517e<sup>-13</sup> | 0,0001517 | 2,0053e<sup>-8</sup> | 0,0173518 | 0,0085 | 
    | MAE | 4,9505e<sup>-13</sup> | 0,0001108 | 1,4063e<sup>-8</sup> | 0,0055825 | 0,0733 | 
    | MAPE | 7,1979e<sup>-13</sup> | 0,0001787| 2,2657e<sup>-8</sup> | 0.0097527 | 11,4380 | 
+ 
+ 2. Effective and efficient variable standard to achieve high productivity (> targeted productivity) with smv based
+ 
+ * Sewing Department
+    
+      | SMV (minutes) | Number of Worker| Over Time (minutes) | Incentive (BDT) | Idle Time (minutes) | Idle Men | Number of Style Change |
+      | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+      | 2,9 | 8 | 960 | 0 | 0 | 0 | 0 |
+      | 3,9 | 8 | 960 | 0 | 0 | 0 | 0 |
+      | 3,94 | 8 | 960 | 0 | 0 | 0 | 0 | 
+      | 4,08 | 9 | 1080 | 0 | 0 | 0 | 0 | 
+      | 4,15 | 12 | 1440 | 0 | 0 | 0 | 0 | 
+      | 4,6 | 8 | 960 | 0 | 0 | 0 | 0 | 
+      | 5,13 | 8 | 960 | 0 | 0 | 0 | 0 |
+      | 18,79 | 8 | 960 | 0 | 0 | 0 | 0 | 
+      
+    
+    
+    
