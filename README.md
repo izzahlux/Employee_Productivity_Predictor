@@ -79,4 +79,13 @@ pandas, numpy, sklearn, statsmodels, seaborn, matplotlib
    * Random forest regression
    * Deep learning
 7. Evaluate The Model
+8. Choose The Best Model
+9. Deep Dive Analysis 
+
+   The objective is to determine effective & efficient standard variable to achieve high productivity with smv based.  here is the steps :
+   * filter data with positive margin value and actual productivity > 0,90
+   * find the unique value of the smv, we will determine effective & efficient standard variable with smv based
+   * filter the data by it's smv value, compare the data that have smv value
+   * choose the data that has the smallest value of number of workers, over time, & incentive
+   
    
