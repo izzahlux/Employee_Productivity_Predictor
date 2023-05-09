@@ -125,6 +125,9 @@ pandas, numpy, sklearn, statsmodels, seaborn, matplotlib
       | 4,15 | 8 | 960 | 0 | 0 | 0 | 0 | 
       | 4,30 | 10 | 1200 | 0 | 0 | 0 | 0 | 
       
+## Conclusion & Recommendation
+1. Compared to the other four models, the multiple linear regression method has the smallest error value and a perfect R2 score of 1. It means that 100% of variability of actual_productivity is perfectly explained using all the features in the model. The standard deviation of prediction errors is 5.4517e-13. From the regression line, the residuals mostly deviate between +- 5.4517e-13. On average, our prediction using multiple linear regression model deviates the true actual_productivity by 4.950e-13 Moreover, this by 4.950e-13 is equivalent to 7,197e-11 % deviation relative to the true actual_productivity I recommend to use this model as prediction model.
+
     
     
     
